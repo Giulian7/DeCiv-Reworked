@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Encrypted Data",
+        "resourceType": "Strategic",
+        "revealedBy": "Electronics",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest"],
+        "improvement": "Decryption Analysis Center",
+        "improvementStats": {
+            "science": 4
+        },
+        "majorDepositAmount": {
+            "sparse": 2,
+            "default": 3,
+            "abundant": 4
+        },
+        "minorDepositAmount": {
+            "sparse": 1,
+            "default": 2,
+            "abundant": 3
+        },
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "[+15]% Production when constructing [All] wonders [in all cities]",
+            "Generated with weight [70] <in [Jungle] tiles>",
+            "Generated with weight [70] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [Jungle] tiles>"
+        ]
+    }
+]

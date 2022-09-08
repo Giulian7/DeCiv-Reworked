@@ -1,0 +1,48 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/City Congress
+  rotate: false
+  xy: 1212, 1524
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Irrigation System
+  rotate: false
+  xy: 308, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Old Underground
+  rotate: false
+  xy: 1212, 1416
+  size: 83, 100
+  orig: 83, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/War Meeting Room
+  rotate: false
+  xy: 4, 424
+  size: 1200, 1200
+  orig: 1200, 1200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Decryption Analysis Center
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Confederacy
+  rotate: false
+  xy: 4, 112
+  size: 296, 304
+  orig: 296, 304
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,721 @@
+[
+	{
+		"name": "The Old Underground",
+		"isNationalWonder": true,
+		"uniqueTo": "The Confederacy",
+		"cost": 1,
+		"cityHealth": 10,
+		"production": 1,
+		"food": 1,
+		"culture": 1,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Fungus]",
+			"Free [Gunman] appears",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "In my end is my beginning... - Thomas Stern Eliot"
+	},
+	{
+		"name": "Underground Town",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Food Store",
+		"cost": 50,
+		"cityHealth": 10,
+		"production": 1,
+		"food": 2,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>"
+		]
+	},
+	{
+		"name": "War Meeting Room",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Council",
+		"cost": 20,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Can only be built [in capital]",
+			"Only available <in cities with a [Congress]>",
+			"Only available <when at war>",
+			"[+15]% Production when constructing [All] units [in all cities]<when at war>",
+			"[-10]% Culture from [City Congerss] [in all cities]<when at war>",
+			"[-5]% Production when constructing [All] buildings [in all cities]<when at war>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "City Congress",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <in cities with a [Underground Town]>",
+			"[+1 Culture] per [4] population [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Irrigation System",
+		"cost": 320,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Fresh water] tiles",
+			"[+ 1 gold][+0.5 food] from [Farm] tiles [in this city]"
+		],
+		"requiredTech": "Botany"
+	},
+	//-----------------------------NATION UNIQUE BUILDINGS-------------------------------------------------//
+	{
+		"name": "Stockpile",
+		"isNationalWonder": true,
+		"uniqueTo": "Enclavers",
+		"cost": 1,
+		"uniques": [
+			//"Cannot be destroyed",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [2] [Weapons]",
+			"Free [Guerilla] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Deep Larder] [in this city]"
+		],
+		"quote": "An armed society is a polite society.",
+		"civilopediaText": [
+			{
+				"text": "An armed society is a polite society."
+			}
+		]
+	},
+	{
+		"name": "On the run",
+		"isNationalWonder": true,
+		"uniqueTo": "New Star",
+		"cost": 1,
+		"production": 1,
+		"culture": 1,
+		"specialistSlots": {
+			"Administrator": 1
+		},
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Weapons]",
+			"Free [Militia] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Listening Post] [in this city]"
+		],
+		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
+		"civilopediaText": [
+			{
+				"text": "The New Star Operations Center consists of large and mobile encampments. Since they are set up according to their missions, they do not have a fixed location and are constantly moving."
+			}
+		]
+	},
+	{
+		"name": "Hex Corporation",
+		"isNationalWonder": true,
+		"uniqueTo": "Hexlock",
+		"cost": 1,
+		"science": 2,
+		"production": 1,
+		"cityHealth": 20,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Power]",
+			"Provides [2] [Encrypted Data]",
+			"[2] free [Purge Robot Proto] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Compound Mixer] [in this city]"
+		],
+		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
+		"civilopediaText": [
+			{
+				"text": "Even before the Cataclysm, Hexlock was already well on its way to becoming the world's first Corporate Republic. Mainly comprised of unhinged and ethic-less advanced scientists. Hexlock were the firsts to develop many of the Old world's final advancements. Which it sold at a high price. Strangely enough, none of their old leaders seem to be around anymore."
+			}
+		]
+	},
+	{
+		"name": "Ark One",
+		"isNationalWonder": true,
+		"uniqueTo": "Blackwarden",
+		"culture": 1,
+		"happiness": 1,
+		"gold": 1,
+		"cityStrength": 10,
+		"cityHealth": 60,
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
+			"Free [Security] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
+		"civilopediaText": [
+			{
+				"text": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."
+			}
+		]
+	},
+	{
+		"name": "Atlas Refuge",
+		"isNationalWonder": true,
+		"uniqueTo": "Atlas",
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"gold": 1,
+		"cityHealth": 40,
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Power]",
+			"[2] free [Surveyor] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas.",
+		"civilopediaText": [
+			{
+				"text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."
+			}
+		]
+	},
+	{
+		"name": "Eagle Rock Complex",
+		"isNationalWonder": true,
+		"uniqueTo": "The Patriots",
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"gold": 1,
+		"cityStrength": 20,
+		"cityHealth": 80,
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [1] [Power]",
+			"Provides [1] [Oil]",
+			"Provides [2] [Weapons]",
+			"Free [Spec Ops] appears",
+			"Free [Fighter] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
+		"civilopediaText": [
+			{
+				"text": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath."
+			}
+		]
+	},
+	{
+		"name": "Forum",
+		"isNationalWonder": true,
+		"uniqueTo": "Crimson Legion",
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Free [Swordsman] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
+		"civilopediaText": [
+			{
+				"text": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour."
+			}
+		]
+	},
+	{
+		"name": "Temple",
+		"isNationalWonder": true,
+		"uniqueTo": "Cult of Ignis",
+		"specialistSlots": {
+			"Administrator": 1
+		},
+		"happiness": 1,
+		"faith": 1,
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
+			"Provides [2] [Oil]",
+			"Gain a free [Pantheon] belief",
+			"Free [War Buggy] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Fuel Depot] [in this city]"
+		],
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
+		"civilopediaText": [
+			{
+				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
+			}
+		]
+	},
+	{
+		"name": "Peace Memorial",
+		"isNationalWonder": true,
+		"uniqueTo": "Commonwealth",
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[25]% Great Person generation [in this city]",
+			"City-State territory always counts as friendly territory",
+			"Free [Ranger] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Monument] [in this city]"
+		],
+		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
+		"civilopediaText": [
+			{
+				"text": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour."
+			}
+		]
+	},
+	{
+		"name": "Longhouse",
+		"isWonder": true,
+		"uniqueTo": "Children of Rust",
+		"cost": 1,
+		"cityStrength": 1,
+		"cityHealth": 10,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"[+1 Culture] from [Forest] tiles [in this city]",
+			"[+1 Culture] from [Jungle] tiles [in this city]",
+			"[+1 Culture] from [Sunken Ruins] tiles [in this city]",
+			"[2] free [Scavenger] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Salvage Yard] [in this city]"
+		],
+		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
+		"civilopediaText": [
+			{
+				"text": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces."
+			}
+		]
+	},
+	{
+		"name": "The Great Lighthouse",
+		"isNationalWonder": true,
+		"uniqueTo": "The Mariners",
+		"cost": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Can only be built [in capital]",
+			"[2] free [Spearman] units appear",
+			"Gain a free [Lighthouse] [in this city]",
+			"Normal vision when embarked <for [All] units>",
+			"[+1] Sight <for [Water] units>"
+		],
+		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
+		"civilopediaText": [
+			{
+				"text": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
+			}
+		]
+	},
+	{
+		"name": "Great Mosque",
+		"isNationalWonder": true,
+		"uniqueTo": "New Afrika",
+		"cost": 1,
+		"culture": 1,
+		"food": 2,
+		"cityStrength": 1,
+		"cityHealth": 10,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"Free [Panther] appears",
+			"Gain a free [Mosque] [in this city]"
+		],
+		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
+		"civilopediaText": [
+			{
+				"text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
+			}
+		]
+	},
+	{
+		"name": "Clan Hideout",
+		"isNationalWonder": true,
+		"uniqueTo": "Deadrock Clan",
+		"cost": 1,
+		"cityHealth": 10,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"[2] free [Clansman] units appear",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
+		"civilopediaText": [
+			{
+				"text": "If you would keep your secret from an enemy, tell it not to a friend."
+			}
+		]
+	},
+	//----------------------------------------------CITY STATES UNIQUE---------------------------------------------------------//
+	{
+		"name": "Arden Metro",
+		"uniqueTo": "Arden Club",
+		"replaces":"Monument",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Fungus]",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Archive of the Arts",
+		"isWonder":true,
+		"uniqueTo": "The Archive",
+		"cost": 1,
+		"culture": 5,
+		"science": 1,
+		"happiness": 1,
+		"greatPersonPoints": {
+			"Great Administrator": 2
+		},
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]"
+		]
+	},
+	{
+		"name": "Encyclopedia",
+		"uniqueTo": "The Archive",
+		"replaces": "Monument",
+		"cost": 1,
+		"science": 3,
+		"uniques": [
+			"Provides [2] [Data]"
+		]
+	},
+	{
+		"name": "Homestead",
+		"uniqueTo": "Jericho",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 5,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Devil's Monument",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Monument",
+		"gold": 5,
+		"culture": 1,
+		"cost": 1,
+		"uniques": []
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniqueTo": "Devil's Canyon",
+		"cost": 1,
+		"uniques": [
+			"Provides [2] [Uranium]"
+		]
+	},
+	{
+		"name": "Devil's Nuclear Plant",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Nuclear Plant",
+		"cost": 1,
+		"uniques": [
+			"Provides [8] [Power]",
+			"[+33]% Production when constructing [Missile] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>"
+		]
+	},
+	{
+		"name": "Silk Road",
+		"uniqueTo": "Bartertown",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Paradise Alley",
+		"uniqueTo": "Bartertown",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [2] [Soft Drinks]"
+		]
+	},
+	{
+		"name": "The Abbey",
+		"uniqueTo": "Order of Jerome",
+		"isWonder":true,
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"science": 3,
+		"happiness": 2,
+		"greatPersonPoints": {
+			"Great Scientist": 2
+		}
+	},
+	{
+		"name": "The Divine Knowledge",
+		"uniqueTo": "Order of Jerome",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 25,
+		"culture": 3,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Arroyo",
+		"uniqueTo": "Arroyo",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 50,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": []
+	},
+	{
+		"name": "Arroyo Library",
+		"uniqueTo": "Arroyo",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Ghost Mountain",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": [
+			"Provides [1] [Artifacts]"
+		]
+	},
+	{
+		"name": "Ghost Library",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Alma Air Base",
+		"uniqueTo": "Almaty",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"cost": 1,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Must not be on [Hill]",
+			"Only available <in cities without a [Alma Tank Depot]>"
+		]
+	},
+	{
+		"name": "Alma Tank Depot",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Only available <in cities without a [Alma Air Base]>"
+		]
+	},
+	{
+		"name": "Alma Base",
+		"uniqueTo": "Almaty",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"culture": 5,
+		"uniques": [
+			"Free [Howitzer] appears"
+		]
+	},
+	{
+		"name": "Alma Oil Depot",
+		"culture": 1,
+		"happiness": 5,
+		"specialistSlots": {
+			"Engineer": 2
+		},
+		"maintenance": 1,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [1] [Power]"
+		],
+		"cost": 40,
+		"replaces": "Town Hall",
+		"uniqueTo": "Almaty",
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Hub Monument",
+		"uniqueTo": "The Hub",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Trader's Hub",
+		"uniqueTo": "The Hub",
+		"cost": 1,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Slaves]"
+		]
+	},
+	{
+		"name": "Hub Work Camp",
+		"uniqueTo": "The Hub",
+		"replaces": "Work Camp",
+		"percentStatBonus": {
+			"production": 15
+		},
+		"production": 1,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Provides [1] [Slaves]"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Mormon Monument",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Grand Temple",
+		"uniqueTo": "Deseret Nation",
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Iron Rod Monument",
+		"uniqueTo": "Church of the Iron Rod",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Iron Rod Stockpile",
+		"uniqueTo": "Church of the Iron Rod",
+		"production": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [4] [Weapons]"
+		]
+	},
+	{
+		"name": "Land Value Tax Bureau",
+		"uniqueTo": "Arden Club",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"[+1 Gold] from [Land] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Great Mountain Shrine",
+		"uniqueTo": "Fo Guang",
+		"replaces": "Shrine",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"Provides [1] [Books]",
+			"Provides [1] [Artifacts]"
+		]
+	},
+	{
+		"name": "Fo Guang Library",
+		"uniqueTo": "Fo Guang",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	}
+]
