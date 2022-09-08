@@ -1,0 +1,18 @@
+{
+    lastUpdated:2022-08-23T05:05:57Z,
+    //modUrl:"https://github.com/SpacedOutChicken/DeCiv-Redux",
+    author:Giulian,
+    modSize:36491,
+    topics:[unciv-mod],
+    uniques:[],
+    constants:{
+        maxXPfromBarbarians:150,
+        cityStrengthBase:1,
+        cityStrengthPerPop:0.5,
+        unitUpgradeCost:{}
+    },
+    nationsToRemove:[Hexlock],
+    improvementsToRemove:[Hacking site]
+}
+//"Will not be displayed in Civilopedia",
+//"Reveals the entire map",
