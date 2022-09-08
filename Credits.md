@@ -6,7 +6,8 @@ Credit given whenever I know the source of an image - if you spot one you recogn
 
 /- Buildings -/
 
-War Meeting Room ...(to track down)
+War Meeting Room => thenounproject.com/icon/card-game-23936/
 
+/- Improvements -/
 
-
+Data Encryption Analysis Center => see DeCiv Redux Hacking Site credits
