@@ -20,5 +20,22 @@
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Units ending their turn on this terrain take [10] damage"
 		]
+	}, 
+	{
+		"name": "Old Radiotransmission Center",
+		"type": "TerrainFeature",
+		"movementCost": 1.5,
+		"production" : 2,
+		"unbuildable": true,
+		"defenceBonus": 0.1,
+		"occursOn": [
+			"Mountain",
+			"Hill"
+		],
+		"uniques": [
+			"Nullifies all other stats this tile provides",
+			"Rare feature",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
+		]
 	}
 ]
