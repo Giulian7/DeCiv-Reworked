@@ -9,6 +9,8 @@
 		"food": 1,
 		"culture": 1,
 		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
 			"Can only be built [in capital]",
 			"Provides [2] [Weapons]",
 			"Provides [2] [Fungus]",
@@ -20,11 +22,12 @@
 	{
 		"name": "Underground Town",
 		"uniqueTo": "The Confederacy",
-		"replaces": "Food Store",
-		"cost": 50,
+		"replaces": "Town Hall",
+		"cost": 70,
 		"cityHealth": 10,
 		"production": 1,
 		"food": 2,
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"Unsellable",
 			"Never destroyed when the city is captured",
