@@ -1,3 +1,3 @@
 # DeCiv-Reworked
-A personal extension of Spaced-Out-Chicken's DeCiv Redux ruleset mod for Unciv. \n
+A personal extension of Spaced-Out-Chicken's DeCiv Redux ruleset mod for Unciv. <br>
 It is not only an implementation of the base ruleset, but also a rework of already existing features
