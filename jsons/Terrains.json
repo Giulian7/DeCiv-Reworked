@@ -22,7 +22,7 @@
 		]
 	}, 
 	{
-		"name": "Old Radiotransmission Center",
+		"name": "Pre-war Antenna",
 		"type": "TerrainFeature",
 		"movementCost": 1.5,
 		"production" : 2,
@@ -33,7 +33,6 @@
 			"Hill"
 		],
 		"uniques": [
-			"Nullifies all other stats this tile provides",
 			"Rare feature",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
 		]
