@@ -17,7 +17,11 @@
 			"Free [Gunman] appears",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "In my end is my beginning... - Thomas Stern Eliot"
+		"quote": "In my end is my beginning... - Thomas Stern Eliot",
+		"civilopediaText": [
+			{
+				"text": ""
+			}
 	},
 	{
 		"name": "Underground Town",
@@ -34,6 +38,10 @@
 			"[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>"
 		]
+		"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks<i>"
+			}
 	},
 	{
 		"name": "War Meeting Room",
