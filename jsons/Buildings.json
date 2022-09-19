@@ -17,11 +17,8 @@
 			"Free [Gunman] appears",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "In my end is my beginning... - Thomas Stern Eliot",
-		"civilopediaText": [
-			{
-				"text": ""
-			}
+		"quote": "In my end is my beginning... - Thomas Stern Eliot"
+
 	},
 	{
 		"name": "Underground Town",
