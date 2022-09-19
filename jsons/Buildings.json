@@ -35,7 +35,7 @@
 			"[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>"
 		], 
-		"civilopediaText": [ "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks<i>"]
+		//"civilopediaText": [ "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks<i>"]
 	},
 	{
 		"name": "War Meeting Room",
