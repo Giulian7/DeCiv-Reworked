@@ -26,5 +26,12 @@
             "Minor deposits generated with weight [10] <in [Forest] tiles>",
             "Minor deposits generated with weight [10] <in [Jungle] tiles>"
         ]
-    }
+    }, 
+{
+	"name" : "Opabinia", 
+	"terrainsCanBeFoundOn" : ["Coast"], 
+	"improvement" : "Fishing Boats", 
+	"improvementStats" : { "food": 2}, 
+	"uniques" : ["May spawn {Opabinia} units"] 
+} 
 ]
