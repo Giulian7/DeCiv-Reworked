@@ -6,49 +6,63 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/City Congress
   rotate: false
-  xy: 1212, 1524
+  xy: 4, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Irrigation System
   rotate: false
-  xy: 308, 316
+  xy: 1212, 1420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Old Underground
   rotate: false
-  xy: 1212, 1416
+  xy: 1352, 1560
   size: 83, 100
   orig: 83, 100
   offset: 0, 0
   index: -1
 BuildingIcons/War Meeting Room
   rotate: false
-  xy: 4, 424
+  xy: 4, 460
   size: 1200, 1200
   orig: 1200, 1200
   offset: 0, 0
   index: -1
 ImprovementIcons/Decryption Analysis Center
   rotate: false
-  xy: 4, 4
+  xy: 308, 352
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Confederacy
   rotate: false
-  xy: 4, 112
+  xy: 4, 148
   size: 296, 304
   orig: 296, 304
   offset: 0, 0
   index: -1
+ResourceIcons/Opabinia
+  rotate: false
+  xy: 1212, 1528
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Opabinia
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Pre-war Antenna
   rotate: false
-  xy: 1320, 1596
+  xy: 112, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
