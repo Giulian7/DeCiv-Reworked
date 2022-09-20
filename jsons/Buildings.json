@@ -306,7 +306,7 @@
 	},
 	{
 		"name": "Longhouse",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Children of Rust",
 		"cost": 1,
 		"cityStrength": 1,
