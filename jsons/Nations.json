@@ -14,8 +14,8 @@
         "declaringWar": "The Confederation from now on consider you an enemy.",
         "attacked": "Can't we find a mutually beneficial relationship?",
         "defeated": "The Confederation is now ended my dears, but His spirits will forever remains in our hearts.",
-        //"startIntroPart1": "When the bomb had fallen the population entered the most ",
-        //"startIntroPart2": "Now the people of the earth have begun to forgot the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail.",
+        //"startIntroPart1": 
+        //"startIntroPart2":
         "introduction": "Greetings, consider us rapresentatives of the Confederation",
         "neutralHello": "We always belive in intergovernmental relationships.",
         "hateHello": "You are not welcome here, beware of what you do.",
@@ -34,7 +34,7 @@
         "uniques": [
             "Starts with [Civil Service]",
             "Starts with [Secrets of the Past]",
-            "[-1 Science] per turn from cities before [Writing]"
+            "[-1 Science][in all cities]<before discovering [Education]>"
         ],
         "cities": [
             "North City",
