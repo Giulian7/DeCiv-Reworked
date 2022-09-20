@@ -18,18 +18,10 @@
         //"startIntroPart2":
         "introduction": "Greetings, consider us rapresentatives of the Confederation",
         "neutralHello": "We always belive in intergovernmental relationships.",
-        "hateHello": "You are not welcome here, beware of what you do.",
+        "hateHello": "You are not welcome here, beware of your actions.",
         "tradeRequest": "Our Government is disposed to make an exchange...",
-        "outerColor": [
-            0,
-            90,
-            145
-        ],
-        "innerColor": [
-            10,
-            60,
-            31
-        ],
+        "outerColor": [0,90,145],
+        "innerColor": [10,60,31],
         "uniqueName": "Underground People",
         "uniques": [
             "Starts with [Civil Service]",
