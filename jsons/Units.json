@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Desert errand", 
+		"uniqueTo" : "Barbarians",
+		"unitType" : "Civilian",
+		"uniques" : ["Unbuildable"] 
+	} 
+] 
