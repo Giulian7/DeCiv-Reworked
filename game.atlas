@@ -67,3 +67,10 @@ TileSets/FantasyHex/Tiles/Pre-war Antenna
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Sea Nursery
+  rotate: false
+  xy: 308, 316
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
