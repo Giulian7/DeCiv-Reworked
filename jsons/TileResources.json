@@ -29,10 +29,10 @@
     }, 
     {
 	    "name" : "Opabinia", 
-	    "terrainsCanBeFoundOn" : ["Coast"], 
+	    "terrainsCanBeFoundOn" : ["Untouched Nursery"], 
 	    "improvement" : "Fishing Boats", 
         "food": 1,
-	    "improvementStats" : { "food": 1}, 
-	    "uniques" : ["May spawn {Opabinia} units"] 
+	    "improvementStats" : {"food": 1}
+
     } 
 ]
