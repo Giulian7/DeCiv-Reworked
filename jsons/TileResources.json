@@ -30,9 +30,7 @@
     {
 	    "name" : "Opabinia", 
 	    "terrainsCanBeFoundOn" : ["Untouched Nursery"], 
-	    "improvement" : "Fishing Boats", 
-        "food": 1,
-	    "improvementStats" : {"food": 1}
-
+	    "improvement" : "Fishing Boats",
+	    "improvementStats" : {"science": 1, "food": 1} 
     } 
 ]
