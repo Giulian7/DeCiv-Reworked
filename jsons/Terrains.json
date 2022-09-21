@@ -36,5 +36,18 @@
 			"Rare feature",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
 		]
-	}
+	},
+	{
+		"name": "Untouched Nursery",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"production" : 2,
+		"unbuildable": true,
+		"occursOn": [
+			"Coast" 
+		],
+		"uniques": [
+			"Rare feature"
+		]
+	} 
 ]
