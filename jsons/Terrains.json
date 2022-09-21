@@ -41,7 +41,7 @@
 		"name": "Untouched Nursery",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"production" : 2,
+		"food" : 1,
 		"unbuildable": true,
 		"occursOn": [
 			"Coast" 
