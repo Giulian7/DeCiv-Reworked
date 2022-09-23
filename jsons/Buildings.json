@@ -78,7 +78,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Must be next to [Fresh water]",
-			"[+ 1 gold][+0.5 food] from [Farm] tiles [in this city]"
+			"[+1 gold, +1 food] from [Farm] tiles [in this city]" //can't have fractions in stats, must be whole integer - also fixed syntax for more than 1 stat
 		],
 		"requiredTech": "Botany"
 	},
