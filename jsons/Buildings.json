@@ -77,8 +77,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be next to [Fresh water]",
-			"[+ 1 gold][+0.5 food] from [Farm] tiles [in this city]"
+			"Must have an owned [Lake] within [2] tiles",
+			"[+1] food from [Farm] tiles [in this city]"
 		],
 		"requiredTech": "Botany"
 	},
