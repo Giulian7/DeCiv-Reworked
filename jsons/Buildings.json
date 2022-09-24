@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Irrigation System",
-		"cost": 320,
+		"cost": 180,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
