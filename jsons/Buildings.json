@@ -32,8 +32,9 @@
 		"uniques": [
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"[20]% Food is carried over after population increases [in this city]",
-			"[+1 Food] [in this city] <with [Salt]>"
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>"
 		], 
 		"civilopediaText": [
 			{
