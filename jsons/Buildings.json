@@ -78,7 +78,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must have an owned [Lake] within [2] tiles",
+			"Must have an owned [Water pump] within [3] tiles",
 			"[+1] food from [Farm] tiles [in this city]"
 		],
 		"requiredTech": "Botany"
