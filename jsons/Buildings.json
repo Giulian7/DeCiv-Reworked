@@ -78,7 +78,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must have an owned [Lake] within [2] tiles",
+			"Must be netx to [Fresh Water] tiles",
 			"[+1] food from [Farm] tiles [in this city]"
 		],
 		"requiredTech": "Botany"
@@ -90,7 +90,6 @@
 		"uniqueTo": "Enclavers",
 		"cost": 1,
 		"uniques": [
-			//"Cannot be destroyed",
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"[10]% Food is carried over after population increases [in this city]",
