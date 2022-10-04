@@ -1,5 +1,21 @@
 [	
 	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [30] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Becomes [Desert Mountain] when adjacent to [Desert]",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
 		"name": "Toxic Waste",
 		"type": "TerrainFeature",
 		"movementCost": 3,
@@ -54,5 +70,23 @@
 				"text": "This coastal area seems to be relatively untouched by the course of the events nor by toxic currents, resulting in a paradise for sea fauna and flora."
 			}
 		]
-	} 
+	},
+	{
+		"name": "Desert Mountain",
+		"type": "TerrainFeature",
+		"impassable": false,
+		"occursOn": [
+			"Mountain" 
+		],
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Must be adjacent to [3] to [6] [Desert] tiles",
+			"Must be adjacent to [0] to [4] [Desert Mountain] tiles",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations",
+			"May spawn {Desert Errand} units"
+		]
+	}
 ]
