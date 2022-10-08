@@ -21,6 +21,19 @@
 
 	},
 	{
+		"name": "National Anthem",
+		"isNationalWonder": true,
+		"uniqueTo": "The Confederacy",
+		"replaces" : "National Epic", 
+		"cost": 125, 
+		"uniques": [
+			"Unsellable",
+			"Requires [monument] [in all cities]"
+		],
+		"quote": "We are a band of brothers,\nNative to the soil,\nFighting for our freedom with treasure, blood and toil.\nAnd when our rights are threatened the cry rose near and far,\nHurrah! for the bonnie blue flag that bears the 4-point star!\nHurrah! Hurrah! For northern rights hurrah!\nHurrah, for the bonnie blue flag that bears the 4-point star!"
+
+	},
+	{
 		"name": "Underground Town",
 		"uniqueTo": "The Confederacy",
 		"replaces": "Town Hall",
@@ -52,8 +65,8 @@
 			"Can only be built [in capital]",
 			"Only available <in cities with a [Congress]>",
 			"Only available <when at war>",
-			"[+15]% Production when constructing [All] units [in all cities]<when at war>",
-			"[-10]% Culture from [City Congerss] [in all cities]<when at war>",
+			"[+20]% Production when constructing [All] units [in all cities]<when at war>",
+			"[-30]% Culture [in all cities] <when at war>",
 			"[-5]% Production when constructing [All] buildings [in all cities]<when at war>",
 			"Destroyed when the city is captured"
 		]
