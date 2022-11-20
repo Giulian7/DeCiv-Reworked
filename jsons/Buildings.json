@@ -24,11 +24,11 @@
 		"name": "National Anthem",
 		"isNationalWonder": true,
 		"uniqueTo": "The Confederacy",
-		"replaces" : "National Epic", 
+		//"replaces" : "National Epic", //DeCiv doesn't have National Epic, nor does it have a national wonder that requires monuments, so it can exist by its own
 		"cost": 125, 
 		"uniques": [
 			"Unsellable",
-			"Requires [monument] [in all cities]"
+			"Requires [Monument] [in all cities]"
 		],
 		"quote": "We are a band of brothers,\nNative to the soil,\nFighting for our freedom with treasure, blood and toil.\nAnd when our rights are threatened the cry rose near and far,\nHurrah! for the bonnie blue flag that bears the 4-point star!\nHurrah! Hurrah! For northern rights hurrah!\nHurrah, for the bonnie blue flag that bears the 4-point star!"
 
