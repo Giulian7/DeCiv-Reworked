@@ -28,7 +28,7 @@
 		"cost": 125, 
 		"uniques": [
 			"Unsellable",
-			"Requires [Monument] [in all cities]"
+			"Requires a [Monument] in all cities"
 		],
 		"quote": "We are a band of brothers,\nNative to the soil,\nFighting for our freedom with treasure, blood and toil.\nAnd when our rights are threatened the cry rose near and far,\nHurrah! for the bonnie blue flag that bears the 4-point star!\nHurrah! Hurrah! For northern rights hurrah!\nHurrah, for the bonnie blue flag that bears the 4-point star!"
 
