@@ -7,8 +7,12 @@
 		"movement":2,
 		"cost":45,
 		"unitType":"Scrapper"
+		"promotions":[
+			"Uraban Warfare I",
+			"Smokescreen"
+		]
 		"uniques":[
-			"[+25]% Strength <in cities with a [Gate]>"
+			"Personel"
 		]
 	}
 ] 
