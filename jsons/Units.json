@@ -3,7 +3,10 @@
 		"name":"Gate Guard",
 		"uniqueTo":"The Confederacy",
 		"replaces":"Militia",
-		"strength":30,
+		"strength":36,
+		"movement":2,
+		"cost":45,
+		"unitType":"Scrapper"
 		"uniques":[
 			"[+25]% Strength <in cities with a [Gate]>"
 		]
