@@ -12,25 +12,12 @@
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Can only be built [in capital]",
-			"Provides [2] [Weapons]",
-			"Provides [2] [Fungus]",
-			"Free [Gunman] appears",
-			"Gain a free [Town Hall] [in this city]"
+			"Provides [1] [Weapons]",
+			"Free [Gate Guard] appears",
+			"Gain a free [Underground Town] [in this city]",
+			"Gain a free [Gate] [in this city]"
 		],
 		"quote": "In my end is my beginning... - Thomas Stern Eliot"
-
-	},
-	{
-		"name": "National Anthem",
-		"isNationalWonder": true,
-		"uniqueTo": "The Confederacy",
-		//"replaces" : "National Epic", //DeCiv doesn't have National Epic, nor does it have a national wonder that requires monuments, so it can exist by its own
-		"cost": 125, 
-		"uniques": [
-			"Unsellable",
-			"Requires a [Monument] in all cities"
-		],
-		"quote": "We are a band of brothers,\nNative to the soil,\nFighting for our freedom with treasure, blood and toil.\nAnd when our rights are threatened the cry rose near and far,\nHurrah! for the bonnie blue flag that bears the 4-point star!\nHurrah! Hurrah! For northern rights hurrah!\nHurrah, for the bonnie blue flag that bears the 4-point star!"
 
 	},
 	{
@@ -43,16 +30,54 @@
 		"food": 2,
 		"requiredTech": "Civil Service",
 		"uniques": [
+			"Unlocks Underground Buildings",
 			"Unsellable",
+			"Automatically built in all cities where it is buildable",
 			"Never destroyed when the city is captured",
-			"[-20]% Culture cost of natural border growth [in this city]",
-			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Only available <with [Underground]>",
+			"[+20]% Culture cost of natural border growth [in this city]",
+			"[+20]% Gold cost of acquiring tiles [in this city]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>"
 		], 
 		"civilopediaText": [
 			{
-				"text": "'Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings.' - About the Use and Costume of Northen Folks"
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
 			}
+		]
+	},
+	{
+		"name": "Fungus Farm",
+		"uniqueTo": "The Confederacy",
+		"cost": 70,
+		"food": 1,
+		"specialistSlots": { "Farmer": 2 },
+		"uniques": [
+			"Provides [1] [Fungus]",
+			"Provides [1] [Fungal Tea]",
+			"Only available <in cities with a [Underground Town]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+		/*"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]*/
+	},
+	{
+		"name": "City Congress",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -65,25 +90,12 @@
 			"Can only be built [in capital]",
 			"Only available <in cities with a [Congress]>",
 			"Only available <when at war>",
-			"[+20]% Production when constructing [All] units [in all cities]<when at war>",
-			"[-30]% Culture [in all cities] <when at war>",
+			"[+15]% Production when constructing [All] units [in all cities]<when at war>",
+			"[-10]% Culture from [City Congress] [in all cities]<when at war>",
 			"[-5]% Production when constructing [All] buildings [in all cities]<when at war>",
 			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "City Congress",
-		"uniqueTo": "The Confederacy",
-		"replaces": "Congress",
-		"cost": 100,
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"Only available <in cities with a [Underground Town]>",
-			"[+1 Culture] per [4] population [in this city]",
-			"[-10]% Unhappiness from [Population] [in this city]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Destroyed when the city is captured"
-		]
+		],
+		"maintenance":3
 	},
 	{
 		"name": "Irrigation System",
@@ -91,10 +103,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be netx to [Fresh Water] tiles",
+			"Must be next to [Fresh Water] tiles",
 			"[+1] food from [Farm] tiles [in this city]"
 		],
-		"requiredTech": "Botany"
+		"requiredTech": "Engineering"
 	},
 	//-----------------------------NATION UNIQUE BUILDINGS-------------------------------------------------//
 	{
@@ -140,30 +152,6 @@
 		"civilopediaText": [
 			{
 				"text": "The New Star Operations Center consists of large and mobile encampments. Since they are set up according to their missions, they do not have a fixed location and are constantly moving."
-			}
-		]
-	},
-	{
-		"name": "Hex Corporation",
-		"isNationalWonder": true,
-		"uniqueTo": "Hexlock",
-		"cost": 1,
-		"science": 2,
-		"production": 1,
-		"cityHealth": 20,
-		"uniques": [
-			"Unsellable",
-			"Never destroyed when the city is captured",
-			"Provides [1] [Power]",
-			"Provides [2] [Encrypted Data]",
-			"[2] free [Purge Robot Proto] units appear",
-			"Can only be built [in capital]",
-			"Gain a free [Compound Mixer] [in this city]"
-		],
-		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
-		"civilopediaText": [
-			{
-				"text": "Even before the Cataclysm, Hexlock was already well on its way to becoming the world's first Corporate Republic. Mainly comprised of unhinged and ethic-less advanced scientists. Hexlock were the firsts to develop many of the Old world's final advancements. Which it sold at a high price. Strangely enough, none of their old leaders seem to be around anymore."
 			}
 		]
 	},
@@ -446,6 +434,7 @@
 		"cost": 1,
 		"science": 3,
 		"uniques": [
+			"Never destroyed when the city is captured",
 			"Provides [2] [Data]"
 		]
 	},
@@ -485,8 +474,7 @@
 		"cost": 1,
 		"uniques": [
 			"Provides [8] [Power]",
-			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>"
+			"[+33]% Production when constructing [Missile] units [in this city]"
 		]
 	},
 	{
