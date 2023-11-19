@@ -54,7 +54,25 @@
 		"specialistSlots": { "Farmer": 2 },
 		"uniques": [
 			"Provides [1] [Fungus]",
-			"Provides [1] [Fungal Tea]",
+			// "Provides [1] [Fungal Tea]",
+			"Only available <in cities with a [Underground Town]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+		/*"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]*/
+	},
+	{
+		"name": "Gate",
+		"uniqueTo": "The Confederacy",
+		"cost": 70,
+		"cityStrength": 20,
+		"replaces":"Walls"
+		"uniques": [
 			"Only available <in cities with a [Underground Town]>"
 		],
 		"maintenance": 1,
