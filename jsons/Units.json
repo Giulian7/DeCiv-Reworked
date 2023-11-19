@@ -1,8 +1,11 @@
 [
 	{
-		"name": "Desert errand", 
-		"uniqueTo" : "Barbarians",
-		"unitType" : "Civilian",
-		"uniques" : ["Unbuildable"] 
-	} 
+		"name":"Gate Guard",
+		"uniqueTo":"The Confederacy",
+		"replaces":"Militia",
+		"strength":30,
+		"uniques":[
+			"[+25]% Strength <in cities with a [Gate]>"
+		]
+	}
 ] 

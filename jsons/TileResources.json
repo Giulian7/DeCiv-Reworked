@@ -28,9 +28,14 @@
         ]
     }, 
     {
-	    "name" : "Opabinia", 
+	    "name" : "Sea Fauna", 
 	    "terrainsCanBeFoundOn" : ["Sea Nursery"], 
 	    "improvement" : "Fishing Boats",
 	    "improvementStats" : {"science": 1, "food": 1} 
-    } 
+    },
+    {
+        "name": "Underground",
+        "resourceType":"Bonus",
+        "terrainsCanBeFoundOn": ["Jungle"]
+    }
 ]

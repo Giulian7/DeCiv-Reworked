@@ -82,11 +82,12 @@
 		"RGB": [120, 120, 120],
 		"uniques": [
 			"Rough terrain",
+			"Elevated",
+			"[1] Sight",
 			"Must be adjacent to [3] to [6] [Desert] tiles",
 			"Must be adjacent to [0] to [4] [Desert Mountain] tiles",
 			"Always Fertility [-2] for Map Generation",
-			"Considered [Undesirable] when determining start locations",
-			"May spawn {Desert Errand} units"
+			"Considered [Desirable] when determining start locations"
 		]
 	}
 ]
