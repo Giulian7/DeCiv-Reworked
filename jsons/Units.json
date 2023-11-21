@@ -2,17 +2,19 @@
 	{
 		"name":"Gate Guard",
 		"uniqueTo":"The Confederacy",
-		"replaces":"Militia",
 		"strength":36,
 		"movement":2,
-		"cost":45,
+		"cost":65,
 		"unitType":"Scrapper"
 		"promotions":[
 			"Urban Warfare I",
-			"Smokescreen"
+			"Tear Gas",
+			"Pride"
 		]
 		"uniques":[
-			"Personel"
+			"Personnel",
+			"Food converted to production <when at war>", 
+			"Consumes [1] [Weapons]" 
 		]
 	}
 ] 
