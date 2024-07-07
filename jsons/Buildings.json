@@ -54,17 +54,10 @@
 		"specialistSlots": { "Farmer": 2 },
 		"uniques": [
 			"Provides [1] [Fungus]",
-			// "Provides [1] [Fungal Tea]",
 			"Only available <in cities with a [Underground Town]>"
 		],
 		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Civil Service"
-		/*"civilopediaText": [
-			{
-				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
-			}
-		]*/
+		"hurryCostModifier": 25
 	},
 	{
 		"name": "Gate",
@@ -78,11 +71,6 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
-		/*"civilopediaText": [
-			{
-				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
-			}
-		]*/
 	},
 	{
 		"name": "City Congress",
@@ -96,7 +84,11 @@
 			"[-20]% Culture cost of natural border growth [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Destroyed when the city is captured"
-		]
+		],
+		"specialistSlot":{
+			"Administrator":2
+		}, 
+		"maintenance": 1
 	},
 	{
 		"name": "War Meeting Room",
