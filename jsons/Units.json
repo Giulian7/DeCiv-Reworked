@@ -2,6 +2,7 @@
 	{
 		"name":"Gate Guard",
 		"uniqueTo":"The Confederacy",
+		"replaces":"Militia",
 		"strength":36,
 		"movement":2,
 		"cost":65,
