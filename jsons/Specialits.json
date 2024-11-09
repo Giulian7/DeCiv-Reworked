@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Worker",
+		"production": 3,
+		"color": [139, 69, 19]
+	},
+	{
+		"name": "Botanist",
+		"food": 2,
+		"color": [0, 160, 0]
+	}
+]
+

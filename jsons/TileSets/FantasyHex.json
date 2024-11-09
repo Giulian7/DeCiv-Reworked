@@ -1,0 +1,16 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"ruleVariants": {
+		//Desert Mountain
+		"Mountain+Desert Mountain": ["Desert Mountain"],
+		//Hacking site
+		"Wasteland+Jungle+Analysis Encription Center+Encrypted Data": ["Wasteland", "Jungle", "Hacking site+Encrypted Data"],
+		"Wasteland+Hill+Jungle+Analysis Encription Center+Encrypted Data": ["Wasteland", "Hill", "Jungle", "Hacking site+Encrypted Data"],
+		"Badlands+Jungle+Analysis Encription Center+Encrypted Data": ["Badlands", "BadlandsJungle", "Hacking site+Encrypted Data"],
+		"Badlands+Hill+Jungle+Analysis Encription Center+Encrypted Data": ["Badlands", "Hill", "BadlandsJungle", "Hacking site+Encrypted Data"],
+		"Tundra+Jungle+Analysis Encription Center+Encrypted Data": ["Tundra", "TundraJungle", "Hacking site+Encrypted Data"],
+		"Tundra+Hill+Jungle+Analysis Encription Center+Encrypted Data": ["Tundra", "Hill", "TundraJungle", "Hacking site+Encrypted Data"],
+		"Desert+Jungle+Analysis Encription Center+Encrypted Data": ["Desert", "DesertJungle", "Hacking site+Encrypted Data"],
+		"Desert+Hill+Jungle+Analysis Encription Center+Encrypted Data": ["Desert", "Hill", "DesertJungle", "Hacking site+Encrypted Data"]		
+	}
+}

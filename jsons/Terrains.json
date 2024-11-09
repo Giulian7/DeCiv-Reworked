@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Pre-war Antenna",
+		"type": "TerrainFeature",
+		"movementCost": 1.5,
+		"production" : 1,
+		"unbuildable": false,
+		"defenceBonus": 0.1,
+		"occursOn": [
+			"Hill",
+			"Mountain"
+		],
+		"uniques": [
+			"Rare feature",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
+		]
+	},
+	{
+		"name": "Sea Nursery",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food" : 1,
+		"unbuildable": true,
+		"occursOn": [
+			"Coast" 
+		],
+		"uniques": [
+			"Rare feature"
+		],
+		"civilopediaText": [
+			{
+				"text": "This coastal area seems to be relatively untouched by the course of the events nor by toxic currents, resulting in a paradise for sea fauna and flora."
+			}
+		]
+	}
+]

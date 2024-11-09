@@ -1,0 +1,7 @@
+[
+    {
+		"name": "discover cultural artifacts",
+		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
+		"uniques": ["Gain [20]-[30] [Culture]","Instantly provides [1] [Tragic Cards] <with [30]% chance>"]
+	}
+]

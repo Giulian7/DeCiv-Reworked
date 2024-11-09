@@ -1,0 +1,75 @@
+[
+    // BASICS
+    {
+        "name": "Encrypted Data",
+        "resourceType": "Strategic",
+        "revealedBy": "Electronics",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest"],
+        "improvement": "Decryption Analysis Center",
+        "improvementStats": {
+            "science": 4
+        },
+        "majorDepositAmount": {
+            "sparse": 2,
+            "default": 3,
+            "abundant": 4
+        },
+        "minorDepositAmount": {
+            "sparse": 1,
+            "default": 2,
+            "abundant": 3
+        },
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "[+15]% Production when constructing [All] wonders [in all cities]",
+            "Generated with weight [70] <in [Jungle] tiles>",
+            "Generated with weight [70] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [Jungle] tiles>"
+        ]
+    }, 
+    {
+	    "name" : "Sea Fauna", 
+	    "terrainsCanBeFoundOn" : ["Sea Nursery"], 
+	    "improvement" : "Fishing Boats",
+	    "improvementStats" : {"science": 1, "food": 1},
+        "uniques":[
+            "Generated on every [5] tiles"
+        ]
+    },
+    // SHARED - defined here to be used freely by each module
+    {
+        "name": "Underground",
+        "resourceType":"Bonus",
+        "improvement": "City center",
+        "production":1,
+        "uniques":[
+            "Generated on every [10] tiles <in [Jungle] tiles>",
+            "Generated on every [30] tiles <in [Forest] tiles>"
+        ]
+    },
+    {
+        "name": "Tragic Cards",
+        "resourceType": "Bonus",
+        "uniques":[
+            "Stockpiled",
+            "Doesn't generate naturally"
+        ],
+        "civilopediaText":[
+            {
+                "text": "A set of cards from the pre-War era..."
+            }
+        ]
+    },
+    // SPECIAL
+    // Knowledge marks
+    {
+        "name": "Radio Knowledge",
+        "resourceType":"Bonus",
+        "uniques":[
+            "Knowledge Mark",
+            "Doesn't generate naturally",
+            "[+50]% [Science] <while researching [Radio]>"
+        ]
+    }
+]

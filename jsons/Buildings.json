@@ -1,0 +1,365 @@
+[
+	/*{
+        "name":"Water Tank",
+        "cost":40,
+        "gold":1,
+		"production": -1,
+        "uniques":[
+            "[+10]% [Gold] <in [this city]>",
+			"Doubles Gold given to enemy if city is captured"
+        ],
+        "hurryCostModifier": 25
+    },*/
+	{
+		"name": "Irrigation System",
+		"cost": 180,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Fresh Water]",
+			"[+1] food from [Farm] tiles [in this city]"
+		],
+		"requiredTech": "Engineering"
+	},
+	//----------------------------------------------CITY STATES UNIQUE---------------------------------------------------------//
+	{
+		"name": "Arden Metro",
+		"uniqueTo": "Arden Club",
+		"replaces":"Monument",
+		"cost": 1,
+		"cityStrength":5,
+		"cityHealth":50,
+		"culture": 2,
+		"food": 2,
+		"gold": 1,
+		"production":1,
+		"uniques": [
+			"Underground",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Provides [1] [Fungus]",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Land Value Tax Bureau] [in this city]"
+		]
+	},
+	{
+		"name": "Land Value Tax Bureau",
+		"uniqueTo": "Arden Club",
+		"cost": 1,
+		"culture": 2,
+		"food": 2,
+		"gold": 2,
+		"uniques": [
+			"Unbuildable",
+			"[+1 Gold] from [Land] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Archive of the Arts",
+		"isWonder": true,
+		"uniqueTo": "The Archive",
+		"cost": 1,
+		"culture": 5,
+		"science": 2,
+		"happiness": 1,
+		"greatPersonPoints": {
+			"Great Administrator": 2
+		},
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]"
+		]
+	},
+	{
+		"name": "Encyclopedia",
+		"uniqueTo": "The Archive",
+		"replaces": "Monument",
+		"cost": 1,
+		"science": 3,
+		"uniques": [
+			"Never destroyed when the city is captured",
+			"Provides [2] [Data]"
+		]
+	},
+	{
+		"name": "Homestead",
+		"uniqueTo": "Jericho",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 5,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Power]",
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Devil's Monument",
+		"uniqueTo": "Devil's Canyon",
+		"replaces": "Monument",
+		"cost":40,
+		"gold": 3,
+		"faith":2,
+		"culture": 1
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniques": [
+			"Unbuildable",
+			"Provides [2] [Uranium]"
+		]
+	},
+	{
+		"name": "Devil's Nuclear Plant",
+		"uniqueTo": "Devil's Canyon",
+		"uniques": [
+			"Unbuildable",
+			"Gain a free [Nuclear Plant] [in this city]",
+			"Gain a free [Nuclear Storage] [in this city]"
+		]
+	},
+	{
+		"name": "Silk Road",
+		"uniqueTo": "Bartertown",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Paradise Alley",
+		"uniqueTo": "Bartertown",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [2] [Soft Drinks]"
+		]
+	},
+	{
+		"name": "The Abbey",
+		"uniqueTo": "Order of Jerome",
+		"isWonder":true,
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"science": 3,
+		"happiness": 2,
+		"greatPersonPoints": {
+			"Great Scientist": 2
+		},
+		"uniques":[
+			"Gain a free [The Divine Knowledge] [in this city]"
+		]
+	},
+	{
+		"name": "The Divine Knowledge",
+		"uniqueTo": "Order of Jerome",
+		"replaces": "Monument",
+		"cityHealth": 25,
+		"culture": 3,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Power]",
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Arroyo",
+		"uniqueTo": "Arroyo",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 50,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": []
+	},
+	{
+		"name": "Arroyo Library",
+		"uniqueTo": "Arroyo",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Ghost Mountain",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"food": 2,
+		"culture": 10,
+		"happiness": 2,
+		"uniques": [
+			"Provides [1] [Artifacts]"
+		]
+	},
+	{
+		"name": "Ghost Library",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	},
+	{
+		"name": "Alma Air Base",
+		"uniqueTo": "Almaty",
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"cost": 1,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Must not be on [Hill]",
+			"Only available <in cities with a [Alma Base]>",
+			"Only available <in cities without a [Alma Tank Depot]>"
+		]
+	},
+	{
+		"name": "Alma Tank Depot",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+		"science": 1,
+		"production": 3,
+		"uniques": [
+			"Provides [2] [Weapons]",
+			"Only available <in cities with a [Alma Base]>",
+			"Only available <in cities without a [Alma Air Base]>"
+		]
+	},
+	{
+		"name": "Alma Base",
+		"uniqueTo": "Almaty",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 100,
+		"culture": 5,
+		"uniques": [
+			"Free [Howitzer] appears"
+		]
+	},
+	{
+		"name": "Alma Oil Depot",
+		"uniqueTo": "Almaty",
+		"replaces": "Town Hall",
+		"cost": 40,
+		"culture": 1,
+		"happiness": 5,
+		"specialistSlots": {
+			"Engineer": 2
+		},
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [1] [Power]"
+		],
+		"maintenance": 1,
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Hub Monument",
+		"uniqueTo": "The Hub",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Trader's Hub",
+		"uniqueTo": "The Hub",
+		"cost": 1,
+		"uniques": [
+			"Provides [2] [Oil]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Slaves]"
+		]
+	},
+	{
+		"name": "Hub Work Camp",
+		"uniqueTo": "The Hub",
+		"replaces": "Work Camp",
+		"percentStatBonus": {
+			"production": 15
+		},
+		"production": 1,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Provides [1] [Slaves]"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Mormon Monument",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Grand Temple",
+		"uniqueTo": "Deseret Nation",
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"Provides [1] [Weapons]"
+		]
+	},
+	{
+		"name": "Iron Rod Monument",
+		"uniqueTo": "Church of the Iron Rod",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": []
+	},
+	{
+		"name": "Iron Rod Stockpile",
+		"uniqueTo": "Church of the Iron Rod",
+		"production": 1,
+		"cost": 1,
+		"uniques": [
+			"Provides [4] [Weapons]"
+		]
+	},
+	{
+		"name": "Great Mountain Shrine",
+		"uniqueTo": "Fo Guang",
+		"replaces": "Shrine",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"Provides [1] [Books]",
+			"Provides [1] [Artifacts]"
+		]
+	},
+	{
+		"name": "Fo Guang Library",
+		"uniqueTo": "Fo Guang",
+		"replaces": "Library",
+		"cost":1,
+		"science": 4,
+		"uniques": [
+			"Provides [1] [Books]"
+		]
+	}
+]

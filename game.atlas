@@ -1,0 +1,230 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Alma Base
+  rotate: false
+  xy: 308, 682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Alma Oil Depot
+  rotate: false
+  xy: 1212, 1682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arden Metro
+  rotate: false
+  xy: 1420, 1890
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arroyo
+  rotate: false
+  xy: 4, 162
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arroyo Library
+  rotate: false
+  xy: 466, 682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/City Congress
+  rotate: false
+  xy: 1098, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Devil's Monument
+  rotate: false
+  xy: 1212, 1524
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Devil's Nuclear Plant
+  rotate: false
+  xy: 1578, 1890
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Encyclopedia
+  rotate: false
+  xy: 4, 4
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fo Guang Library
+  rotate: false
+  xy: 624, 682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ghost Library
+  rotate: false
+  xy: 1212, 1366
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ghost Mountain
+  rotate: false
+  xy: 1736, 1890
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Mountain Shrine
+  rotate: false
+  xy: 1894, 1890
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Homestead
+  rotate: false
+  xy: 1212, 1840
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hub Monument
+  rotate: false
+  xy: 782, 682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Iron Rod Monument
+  rotate: false
+  xy: 1212, 1208
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Irrigation System
+  rotate: false
+  xy: 822, 574
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Land Value Tax Bureau
+  rotate: false
+  xy: 940, 682
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mormon Monument
+  rotate: false
+  xy: 1212, 1050
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Silk Road
+  rotate: false
+  xy: 1212, 892
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Divine Knowledge
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Old Underground
+  rotate: false
+  xy: 212, 420
+  size: 83, 100
+  orig: 83, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Town
+  rotate: false
+  xy: 308, 524
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/War Meeting Room
+  rotate: false
+  xy: 4, 840
+  size: 1200, 1200
+  orig: 1200, 1200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Decryption Analysis Center
+  rotate: false
+  xy: 606, 574
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Confederacy
+  rotate: false
+  xy: 4, 528
+  size: 296, 304
+  orig: 296, 304
+  offset: 0, 0
+  index: -1
+ResourceIcons/Opabinia
+  rotate: false
+  xy: 466, 542
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert Mountain
+  rotate: false
+  xy: 1370, 1800
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Pre-war Antenna - Hill
+  rotate: false
+  xy: 1420, 1854
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sea Fauna
+  rotate: false
+  xy: 162, 284
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sea Nursery
+  rotate: false
+  xy: 1212, 856
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Gate Guardian
+  rotate: false
+  xy: 714, 574
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

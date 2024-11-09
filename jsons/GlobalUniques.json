@@ -1,0 +1,30 @@
+{
+	"name": "Global uniques",
+	"uniques": [
+		//unique parameters of this modpack
+		"Underground",
+		"Science Mark",
+		"Culture Mark",
+		"Irradiated I",
+		"Irradiated II",
+		"Irradiated III",
+		"Irradiated IV",
+		//Global Behaviours
+		// Radiation related
+		// Only applied with Radiation Module
+		//IrrIV
+		"[All] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated IV] tile> <for units without [Gas Mask]>",
+		"[All] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated IV] tile> <for units with [Gas Mask]> <with [30]% chance>",
+		// IrrIII
+		"[non-{Wounded}] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units without [Gas Mask]> <with [30]% chance>",
+		"[Wounded] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units without [Gas Mask]>",
+		"[Wounded] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units with [Gas Mask]> <with [30]% chance>",
+		// IrrII
+		"[non-{Wounded}] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units without [Gas Mask]> <with [10]% chance>",
+		"[Wounded] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units without [Gas Mask]> <with [30]% chance>",
+		"[Wounded] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated III] tile> <for units with [Gas Mask]> <with [5]% chance>",
+		// IrrI
+		"[Wounded] units gain the [Irradiated] promotion <upon ending a turn in a [Irradiated I] tile> <for units without [Gas Mask]> <with [10]% chance>"
+		// Artifact findings
+	]
+}
