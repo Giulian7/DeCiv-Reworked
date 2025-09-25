@@ -18,7 +18,16 @@
 		"techRequired": "Engineering",
 		"terrainsCanBeBuiltOn":["Pre-war Antenna"],
 		"uniques":[
-			"Gain a free [Broadcast Tower] [in this city]"
+			"Gain a free [Broadcast Tower] [in this city]",
+			"Instantly provides [1] [Radio Knowledge]"
+		]
+	},
+	{
+		"name":"Research Boats",
+		"terrainsCanBeBuiltOn":["Coast"],
+		"uniques":[
+			"Can only be built to improve a resource",
+			"[+1 Science] <after discovering [Oceanography]>"
 		]
 	}
 ]

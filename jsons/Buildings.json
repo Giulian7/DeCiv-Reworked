@@ -17,7 +17,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Must be next to [Fresh Water]",
-			"[+1] food from [Farm] tiles [in this city]"
+			"[+1 Food] from [Farm] tiles [in this city]"
 		],
 		"requiredTech": "Engineering"
 	},

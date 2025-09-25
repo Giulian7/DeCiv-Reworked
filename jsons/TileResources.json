@@ -30,30 +30,25 @@
     }, 
     {
 	    "name" : "Sea Fauna", 
-	    "terrainsCanBeFoundOn" : ["Sea Nursery"], 
-	    "improvement" : "Fishing Boats",
-	    "improvementStats" : {"science": 1, "food": 1},
+	    "terrainsCanBeFoundOn" : ["Sea Nursery"],
+        "resourceType":"Bonus",
+	    "improvedBy" :[
+            "Fishing Boats",
+            "Research Boats"
+        ],
+        "food":1,
         "uniques":[
             "Generated on every [5] tiles"
         ]
     },
     // SHARED - defined here to be used freely by each module
     {
-        "name": "Underground",
-        "resourceType":"Bonus",
-        "improvement": "City center",
-        "production":1,
-        "uniques":[
-            "Generated on every [10] tiles <in [Jungle] tiles>",
-            "Generated on every [30] tiles <in [Forest] tiles>"
-        ]
-    },
-    {
         "name": "Tragic Cards",
-        "resourceType": "Bonus",
+        "resourceType": "Luxury",
         "uniques":[
             "Stockpiled",
-            "Doesn't generate naturally"
+            "Doesn't generate naturally",
+            "Comment [Mechanics Available in Secrets of the Past Mod Module]<if [DeCiv Reworked Secrets of the Past] is not enabled>"
         ],
         "civilopediaText":[
             {
@@ -68,8 +63,8 @@
         "resourceType":"Bonus",
         "uniques":[
             "Knowledge Mark",
-            "Doesn't generate naturally",
-            "[+50]% [Science] <while researching [Radio]>"
+            "Stockpiled",
+            "Doesn't generate naturally"
         ]
     }
 ]
